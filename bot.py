@@ -1,9 +1,9 @@
 import hikari
 
 intents = hikari.Intents(hikari.Intents.ALL)
-bot = hikari.GatewayBot(token='MTEwNzUzODEyMTkzNzEyNTQwNg.GpymMa.gtZQsHzrsiDRqCt3XXz0HwDmDJF_rVnvLm70lE', intents=intents)
+bot = hikari.GatewayBot(token='', intents=intents)
     
-user_id_list = [580852295273545749, 767875224363728926, 487730092617760789, 905530626399158274, 590023274923163648, 936449954329792602, 567962682154680322, 596551827164495887, 755644125935566851, 761019409937596416, 696923816760180787, 634895849159262239, 516095493843976194, 741163038870208512, 578083125272379407, 880295376945577994]
+user_id_list = []
 
 @bot.listen(hikari.DMMessageCreateEvent)
 async def analCumSex(event):    
